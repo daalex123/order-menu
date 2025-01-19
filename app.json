@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "graceful-orange-tortillas",
-    "slug": "snack-76d3cd59-b592-4563-b7d9-6ebe9b29acec",
+    "name": "Order Menu",
+    "slug": "order-menu",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -10,7 +10,7 @@
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#000"
     },
     "ios": {
       "supportsTablet": true
@@ -18,11 +18,17 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "backgroundColor": "#000"
+      },
+      "package": "com.daalex.snack76d3cd59b5924563b7d96ebe9b29acec"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "24a0d143-be30-4b48-876a-5699e10fe06c"
+      }
     }
   }
 }
